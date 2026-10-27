@@ -37,4 +37,5 @@ La combinació dels quatre permetria crear una estructura tipogràfica basada en
 Referents visuals
 
 Referent 01 — Cosmos. https://www.cosmos.so/e/183156675
+
 Referent 02 — Cosmos. https://www.cosmos.so/e/446005544
