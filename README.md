@@ -16,23 +16,21 @@ Vídeo 03 — Color: jugar amb els contrastos cromàtics per a revelar o ocultar
 
 Referents de codi
 
-01. Array 2D — Processing. https://processing.org/examples/array2d.html
+01. Array Objects — Processing
 
-He seleccionat este codi perquè permet organitzar i controlar elements gràfics mitjançant una estructura de files i columnes. M'interessa utilitzar-lo com a punt de partida per a crear un sistema de línies repetitives que, a través de la seua distribució i grossor, puguen construir caràcters tipogràfics.
+He seleccionat este codi perquè permet crear múltiples elements gràfics i controlar-los de manera independent. M'interessa adaptar-lo per a generar línies de diferents grossors i colors que construïsquen caràcters tipogràfics, i poder modificar individualment les seues propietats.
 
-02. Mouse Functions — Processing. https://processing.org/examples/mousefunctions.html
+02. Distance 2D — Processing
 
-Este exemple explora la interacció amb el ratolí. L'he escollit perquè vull que la tipografia no siga únicament una animació automàtica, sinó que puga reaccionar al moviment del cursor, alterant la posició, el grossor o el color de les línies.
+Este exemple treballa amb el càlcul de distàncies entre punts. M'interessa aplicar-lo per a controlar com reaccionen les línies segons la proximitat del ratolí, modificant la intensitat de les transformacions en funció de la distància al cursor.
 
-03. Distance 2D — Processing. https://processing.org/examples/distance2d.html
+03. Forces With Vectors — Processing
 
-Este codi treballa amb el càlcul de distàncies entre punts. M'interessa aplicar este principi per a controlar la intensitat de les transformacions segons la proximitat del ratolí. Així, els elements més pròxims al cursor podrien reaccionar amb més intensitat que els més allunyats.
+He escollit este codi perquè explora com les forces poden modificar el moviment dels elements. M'agradaria adaptar-lo a les línies que formen la tipografia perquè reaccionen a la interacció amb el ratolí, generant desplaçaments i deformacions que alteren la llegibilitat de les lletres.
 
-04. Attraction and Repulsion Behaviors — The Nature of Code. https://natureofcode.com/physics-libraries/#example-615-attraction-and-repulsion-behaviors
+Connexió entre els codis
 
-He escollit este exemple perquè explora les forces d'atracció i repulsió entre partícules. M'agradaria adaptar este comportament als punts que formen les línies tipogràfiques, de manera que reaccionen al moviment del cursor, provocant deformacions i alterant la llegibilitat de les lletres.
-
-La combinació dels quatre permetria crear una estructura tipogràfica basada en línies geomètriques i experimentar amb la seua transformació a través de la interacció, modificant propietats com la posició, el grossor i el color.
+La combinació dels tres codis permetria crear un sistema de línies geomètriques que construïsquen caràcters tipogràfics i reaccionen al moviment del ratolí. A partir d'esta base, es planteja experimentar amb tres variables visuals: la deformació, el grossor de les línies i el color, per a desenvolupar tres vídeos diferents però connectats entre si.
 
 Referents visuals
 
