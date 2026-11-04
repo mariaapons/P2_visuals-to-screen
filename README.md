@@ -1,39 +1,35 @@
 # P2_visuals-to-screen
 Visuals to Disseny en Moviment
-Concepte: Tipografia reactiva
+# P2 — Visuals to Disseny en Moviment
 
-La proposta consistix a experimentar amb la tipografia a partir de línies geomètriques, jugant amb el grossor, la repetició, el color i el moviment.
+## Concepte: Xarxa dinàmica
 
-La idea és investigar com estes línies poden construir lletres i com, mitjançant la interacció amb el ratolí, podem alterar la seua forma i llegibilitat.
+La proposta consistix a experimentar amb la **creació d'una xarxa abstracta de punts i connexions**, explorant conceptes com el moviment, la densitat, el ritme i el color.
 
-A partir d'una mateixa programació en Processing, es plantegen tres vídeos que exploren diferents conceptes:
+La idea és generar una estructura que cresca progressivament des d'un punt central. Els punts es desplaçaran suaument mentre les connexions canvien ràpidament entre ells, creant una composició en constant transformació.
 
-Vídeo 01 — Deformació: modificar la posició de les línies segons el moviment del ratolí.
+A partir d'una mateixa programació en Processing, es plantegen tres vídeos que experimenten amb diferents variables:
 
-Vídeo 02 — Modulació: experimentar amb el grossor i la densitat de les línies.
+- **Vídeo 01 — Creixement:** modificar la quantitat de punts i la velocitat amb què apareixen.
+- **Vídeo 02 — Connexions:** experimentar amb la densitat, la distància i la rapidesa amb què canvien les unions entre punts.
+- **Vídeo 03 — Color i moviment:** explorar diferents combinacions cromàtiques i intensitats del moviment dels punts.
 
-Vídeo 03 — Color: jugar amb els contrastos cromàtics per a revelar o ocultar la tipografia.
+## Referents de codi
 
-Referents de codi
+### 01. [ArrayList Class — Processing](https://processing.org/examples/arraylistclass)
 
-01. Array Objects — Processing
+He seleccionat este exemple perquè permet crear i gestionar múltiples objectes dins d'una mateixa programació. M'interessa aplicar-lo per a generar els punts i les connexions de la xarxa, controlant-ne les propietats individualment.
 
-He seleccionat este codi perquè permet crear múltiples elements gràfics i controlar-los de manera independent. M'interessa adaptar-lo per a generar línies de diferents grossors i colors que construïsquen caràcters tipogràfics, i poder modificar individualment les seues propietats.
+### 02. [Distance 2D — Processing](https://processing.org/examples/distance2d)
 
-02. Distance 2D — Processing
+Este exemple utilitza el càlcul de distàncies entre elements. L'he escollit per a determinar quins punts poden connectar-se segons la seua proximitat, experimentant amb la longitud i la densitat de les connexions.
 
-Este exemple treballa amb el càlcul de distàncies entre punts. M'interessa aplicar-lo per a controlar com reaccionen les línies segons la proximitat del ratolí, modificant la intensitat de les transformacions en funció de la distància al cursor.
+### 03. [Oscillator Objects — The Nature of Code](https://natureofcode.com/oscillation/#example-37-oscillator-objects)
 
-03. Forces With Vectors — Processing
+He escollit este exemple perquè investiga el moviment oscil·latori de diferents objectes. M'interessa adaptar este principi perquè cada punt tinga un moviment independent, provocant canvis continus en l'estructura i les connexions de la xarxa.
 
-He escollit este codi perquè explora com les forces poden modificar el moviment dels elements. M'agradaria adaptar-lo a les línies que formen la tipografia perquè reaccionen a la interacció amb el ratolí, generant desplaçaments i deformacions que alteren la llegibilitat de les lletres.
+## Connexió entre els codis
 
-Connexió entre els codis
+Els tres referents es combinen per a crear una xarxa de punts que creix i es transforma contínuament. *ArrayList Class* permet gestionar els elements, *Distance 2D* determina les connexions i *Oscillator Objects* aporta moviment als punts.
 
-La combinació dels tres codis permetria crear un sistema de línies geomètriques que construïsquen caràcters tipogràfics i reaccionen al moviment del ratolí. A partir d'esta base, es planteja experimentar amb tres variables visuals: la deformació, el grossor de les línies i el color, per a desenvolupar tres vídeos diferents però connectats entre si.
-
-Referents visuals
-
-Referent 01 — Cosmos. https://www.cosmos.so/e/183156675
-
-Referent 02 — Cosmos. https://www.cosmos.so/e/446005544
+La proposta continuarà evolucionant a través de l'experimentació amb els paràmetres de Processing.
