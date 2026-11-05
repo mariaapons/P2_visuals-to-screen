@@ -5,7 +5,7 @@ La proposta consistix a experimentar amb la creació d'una xarxa abstracta de pu
 
 La idea és generar una estructura que cresca progressivament des d'un punt central. Els punts es desplaçaran suaument mentre les connexions canvien ràpidament entre ells, creant una composició en constant transformació.
 
-A partir d'una mateixa programació en Processing, es plantegen tres vídeos que experimenten amb diferents variables:
+Es plantegen tres vídeos que experimenten amb diferents variables:
 
 Vídeo 01 — Creixement: modificar la quantitat de punts i la velocitat amb què apareixen.
 
