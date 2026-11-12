@@ -33,3 +33,7 @@ He escollit este exemple perquè investiga el moviment oscil·latori de diferent
 Connexió entre els codis
 
 Els tres referents es combinen per a crear una xarxa de punts que creix i es transforma contínuament. ArrayList Class permet gestionar els elements, Distance 2D determina les connexions i Oscillator Objects aporta moviment als punts.
+
+Enllaç al treball: https://drive.google.com/drive/folders/1jJuLrRStg8zkKDFQk0NMtZ_1DNsYsxk-?usp=drive_link
+
+
