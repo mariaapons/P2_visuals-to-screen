@@ -1,18 +1,21 @@
 # P2_visuals-to-screen
 Concepte: Xarxa dinàmica
 
-La proposta consistix a experimentar amb la creació d'una xarxa abstracta de punts i connexions, explorant conceptes com el moviment, la densitat, el ritme i el color.
+Variacions de la xarxa
 
-La idea és generar una estructura que cresca progressivament des d'un punt central. Els punts es desplaçaran suaument mentre les connexions canvien ràpidament entre ells, creant una composició en constant transformació.
+A partir d'una mateixa base de programació, es desenvolupen tres animacions que experimenten amb diferents propietats de la xarxa, com el creixement, el moviment, la forma i les connexions.
 
-Es plantegen tres vídeos que experimenten amb diferents variables:
+Vídeo 01 — Creixement
 
-Vídeo 01 — Creixement: modificar la quantitat de punts i la velocitat amb què apareixen.
+La xarxa es genera progressivament des d'un punt central. A mesura que apareixen nous punts, l'estructura creix i s'expandix fins a superar els límits de la pantalla. Els punts mantenen un moviment oscil·latori suau, mentre les connexions canvien constantment.
 
-Vídeo 02 — Connexions: experimentar amb la densitat, la distància i la rapidesa amb què canvien les unions entre punts.
+Vídeo 02 — Inestabilitat
 
-Vídeo 03 — Color i moviment: explorar diferents combinacions cromàtiques i intensitats del moviment dels punts.
+La xarxa creix des del centre fins a formar una estructura circular que es manté concentrada. S'incrementen la velocitat i l'amplitud del moviment dels punts i s'incorpora una segona oscil·lació, generant un comportament més nerviós i caòtic. Les connexions es reorganitzen contínuament.
 
+Vídeo 03 — Desconnexió
+
+La xarxa es genera des del centre i s'expandix per la pantalla, però les connexions comencen a desaparèixer progressivament. Finalment, només queden els punts, que continuen desplaçant-se de manera independent. Esta variació explora la dissolució de l'estructura mitjançant la reducció de les connexions i la seua opacitat.
 Referents de codi
 
 01. ArrayList Class — Processing
